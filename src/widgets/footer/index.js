@@ -1,0 +1,1 @@
+export {PetFooter} from './ui/PetFooter'
