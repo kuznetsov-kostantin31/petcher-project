@@ -2,13 +2,23 @@ footer{
   width: 100%;
   background-color: #323232;
   height: 252px;
-  padding: 48px 1031px 97px 356px;
   display: flex;
+  align-items: center;
 }
 
 .footer-route-href{
+  margin-left: 56px;
+  width: 300px;
+  height: 107px;
   font-size: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-route-href a{
+  margin: 0 0 16px;
   color: white;
+  text-decoration:  none;
 }

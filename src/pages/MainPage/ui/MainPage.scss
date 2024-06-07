@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
+.mainPage-content{
+  margin: 0;
+  width: 100%;
+  padding-top: 93px;
+  height: 4929px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-img{
+  margin: 0;
+  width: 554px;
+  height: 1153px;
+}
+
+.first-img img{
+  width: 540px;
+  height: 1126px;
+  transform: rotate(0.5deg);
+  position: absolute;
+  left: 350px;
+  right: 691px;
+  top: 50px;
+  bottom: -24.39px;
+}
+
+.first-info{
+  margin: 0;
+  width: 1144px;
+  height: 1018px;
+  display: flex;
+}
+
+.petcher-info{
+  padding-top: 114px;
+  width: 624px;
+  height: 379px;
+}
+
+h1{
+  color: rgb(6, 124, 255);
+  font-size: 96px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.pet-cher{
+  color: rgb(6, 124, 255);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 128px;
+}
+
+.petcher-descript{
+  width: 584px;
+  height: 120px;
+  color: rgb(50, 50, 50);
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+  opacity: 0.6;
+}
+
+.arrow{
+  margin-top: 300px;
+  margin-left: 64px;
+}
+.arr{
+  position: absolute;
+  left: 52.27%;
+  top: 109.5%;
+
+  transition: 0.2s linear;
+}
+.arr:hover{
+  transform: translateY(-11px);
+}
+
+.second-info{
+  margin-top: 350px;
+}
+
+.second-info h1{
+  margin-bottom: 128px;
+}
+
+.quad{
+  border-radius: 16px;
+  background: rgb(214, 239, 255);
+  margin-right: 40px;
+  margin-bottom: 40px;
+  padding: 12px 24px;
+  font-family:  Wix Madefor Display, serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: rgba(6,124,255, 0.7);
+}
+
+h2{
+  color: rgb(6, 124, 255);
+  font-family: "Wix Madefor Display", serif;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 130%;
+  text-align: left;
+  margin-bottom: 55px;
+}
+
+.first-row{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.o-quad{
+  width: 688px;
+  height: 275px;
+}
+
+.s-quad{
+  width: 480px;
+  height: 275px;
+}
+
+.second-row{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.t-quad{
+  width: 584px;
+  height: 306px;
+}
+
+.t-quad h2{
+  font-size: 84px;
+}
+
+.f-quad{
+  width: 584px;
+  height: 306px;
+}
+
+.third-info{
+  margin-top: 350px;
+  width: 1208px;
+  height: 855px;
+}
+
+.third-info h1{
+  margin-bottom: 128px;
+}
+
+.how-start{
+  margin-top: 256px;
+  width: 792px;
+  height: 610px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swiper {
+  width: 584px;
+  height: 386px;
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.how-start h1{
+  margin-bottom: 128px;
+}
+
+.shadow2{
+  position: absolute;
+  left: 450px;
+  top: 3970px;
+}
+
+.shadow{
+  position: absolute;
+  width: 750px;
+  left: 150px;
+  top: 50px;
+}

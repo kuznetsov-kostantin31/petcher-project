@@ -1,8 +1,10 @@
 import React from 'react';
 
-const Register = () => {
+import './register.scss'
+
+const Register = ({style}) => {
     return (
-        <button>
+        <button style={style} className="register-header">
             Зарегистрироваться
         </button>
     );
