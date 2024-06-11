@@ -1,0 +1,29 @@
+select{
+  border-radius: 16px;
+  padding: 12px 24px;
+  width: 376px;
+  height: 39px;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.25);
+  background: rgb(6,124,255);
+  border: transparent;
+  color: white;
+  font-family: Unbounded, sans-serif;
+  margin-bottom: 16px;
+  display: flex;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+option{
+  border-radius: 7px;
+  padding: 8px 16px;
+  width: 376px;
+  height: 36px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+  font-weight: 300;
+  font-size: 16px;
+  color: black;
+  font-family: Unbounded, sans-serif;
+  border: transparent;
+}

@@ -38,7 +38,7 @@ const PetFooter = () => {
             </div>
             <div className="footer-route-href">
                 <a href="">О нас</a>
-                <a href="/home">Главная</a>
+                <a href="">Главная</a>
                 <a href="">Связаться с нами</a>
             </div>
         </footer>

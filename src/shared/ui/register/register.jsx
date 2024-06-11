@@ -4,9 +4,12 @@ import './register.scss'
 
 const Register = ({style}) => {
     return (
-        <button style={style} className="register-header">
-            Зарегистрироваться
-        </button>
+        <a href="/registration">
+            <button style={style} className="register-header">
+                Зарегистрироваться
+            </button>
+        </a>
+
     );
 };
 

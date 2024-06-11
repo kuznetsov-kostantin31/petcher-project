@@ -15,7 +15,7 @@ const PetHeader = () => {
                 </a>
             </div>
             <div className="route-href">
-                <a href="/home">Главная</a>
+                <a href="">Главная</a>
                 <a href="">Проекты</a>
                 <a href="" style={{marginRight: "157px"}}>О нас</a>
             </div>

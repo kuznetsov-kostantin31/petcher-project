@@ -9,6 +9,7 @@ import {Route, RouterProvider, Routes} from "react-router";
 import MainPage from "../../pages/MainPage/ui/MainPage";
 import HomePage from "../../pages/HomePage/ui/HomePage";
 import {Paths} from "./paths";
+import RegistrationPage from "../../pages/RegistrationPage/ui/RegistrationPage";
 
 const AppRouter = (routes, opts) => {
     const router = createBrowserRouter([
@@ -17,9 +18,9 @@ const AppRouter = (routes, opts) => {
             element: <MainPage/>
         },
         {
-            path: Paths.home,
-            element: <HomePage/>
-        },
+            path: Paths.register,
+            element: <RegistrationPage/>
+        }
     ])
 
     return (
