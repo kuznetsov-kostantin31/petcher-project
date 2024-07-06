@@ -1,0 +1,35 @@
+.wrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 1202px;
+  height: 704px;
+}
+
+.feedback-content{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+
+.feedback-description h1{
+  font-weight: 400;
+  font-size: 88px;
+}
+
+.feedback-description h4{
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(50, 50, 50, 0.8);
+  margin-bottom: 128px;
+}
+
+.feedback-content form{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}

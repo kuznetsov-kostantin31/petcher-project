@@ -2,5 +2,6 @@ export const Paths = {
     main: '/',
     home: '/home',
     about: '/about',
-    register: '/registration'
+    register: '/registration',
+    feedback: '/feedback'
 }

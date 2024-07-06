@@ -10,6 +10,7 @@ import MainPage from "../../pages/MainPage/ui/MainPage";
 import HomePage from "../../pages/HomePage/ui/HomePage";
 import {Paths} from "./paths";
 import RegistrationPage from "../../pages/RegistrationPage/ui/RegistrationPage";
+import FeedbackPage from "../../pages/FeedbackPage/ui/FeedbackPage";
 
 const AppRouter = (routes, opts) => {
     const router = createBrowserRouter([
@@ -20,6 +21,10 @@ const AppRouter = (routes, opts) => {
         {
             path: Paths.register,
             element: <RegistrationPage/>
+        },
+        {
+            path: Paths.feedback,
+            element: <FeedbackPage/>
         }
     ])
 

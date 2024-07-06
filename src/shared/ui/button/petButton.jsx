@@ -3,9 +3,9 @@ import './petButton.scss'
 
 const PetButton = ({children, ...props}) => {
     return (
-        <button {...props} className="petBtn">
+        <a {...props} className="petBtn">
             {children}
-        </button>
+        </a>
     );
 };
 
